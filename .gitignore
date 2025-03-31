@@ -1,0 +1,29 @@
+# Minecraft World Data
+*.dat
+*.dat_old
+*.mca
+*.mcr
+
+# Player Data
+playerdata/
+stats/
+
+# Logs
+logs/
+*.log
+
+# Temporary Files
+*.tmp
+
+# Backup Files
+*.bak
+*.old
+
+# Server Properties and Configurations (optional)
+# Crash Reports
+crash-reports/
+
+# Resource Packs and Shader Packs (optional)
+# Cache and Other Temporary Directories
+.cache/
+.tmp/
