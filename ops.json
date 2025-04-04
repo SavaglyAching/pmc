@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "138d5d01-bcfc-4748-a65e-9a4ba6742fdf",
+    "name": "ThePurgeMC",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

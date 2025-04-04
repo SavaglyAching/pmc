@@ -1,29 +1,61 @@
 # Minecraft World Data
+world/
+world_nether/
+world_the_end/
 *.dat
 *.dat_old
 *.mca
 *.mcr
+session.lock
+
+*.jar
 
 # Player Data
-playerdata/
-stats/
 
-# Logs
+advancements/
+banned-ips.json
+banned-players.json
+whitelist.json
+ops.json
+
+# Logs and Reports
 logs/
 *.log
+crash-reports/
+
+# Cache and Libraries
+cache/
+libraries/
+versions/
+# Plugin Generated Files
+plugins/.paper-remapped/
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite.db
 
 # Temporary Files
 *.tmp
+.cache/
+.tmp/
 
 # Backup Files
 *.bak
 *.old
-
-# Server Properties and Configurations (optional)
-# Crash Reports
-crash-reports/
-
-# Resource Packs and Shader Packs (optional)
-# Cache and Other Temporary Directories
-.cache/
-.tmp/
+*.backup
+*.lock
+*.key
